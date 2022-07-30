@@ -5,7 +5,8 @@ import {
   ImportContacts,
   PostAdd,
 } from "@material-ui/icons";
-
+import LockOpenIcon from '@mui/icons-material/LockOpen';
+import HowToRegIcon from '@mui/icons-material/HowToReg';
 export const mainNavigation = [
   {
     name: "Dashboard",
@@ -33,5 +34,15 @@ export const mainNavigation = [
     name: "Users",
     icon: PeopleAlt,
     url: `/users`,
+  },
+  {
+    name: "Register",
+    icon: HowToRegIcon,
+    url: `/register`,
+  },
+  {
+    name: "Login",
+    icon: LockOpenIcon,
+    url: `/login`,
   },
 ];

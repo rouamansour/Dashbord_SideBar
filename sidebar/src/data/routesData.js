@@ -39,4 +39,12 @@ export const mainRoutes = [
     path: `/users`,
     component: lazy(() => importView(["Users", 2])),
   },
+  {
+    path: `/register`,
+    component: lazy(() => importView(["Register", 2])),
+  },
+  {
+    path: `/login`,
+    component: lazy(() => importView(["Login", 2])),
+  },
 ];

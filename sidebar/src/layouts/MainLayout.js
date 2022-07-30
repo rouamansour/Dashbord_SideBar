@@ -196,7 +196,7 @@ const MainLayout = ({ themeConfig, navigationData, children }) => {
             target='_blank'>
             Made with&nbsp;
             <Favorite fontSize='small' />
-            &nbsp;by&nbsp;awm
+            &nbsp;by&nbsp;Roua
           </a>
         </Typography>
       </Toolbar>
@@ -230,7 +230,7 @@ const MainLayout = ({ themeConfig, navigationData, children }) => {
             <MenuIcon />
           </IconButton>
           <Typography variant='h6' noWrap className={classes.appBarTitle}>
-            <strong>AWM</strong>
+            <strong>AWM</strong> 
           </Typography>
           <Switch
             checked={themeConfig.state}
