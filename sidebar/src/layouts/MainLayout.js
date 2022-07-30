@@ -190,13 +190,13 @@ const MainLayout = ({ themeConfig, navigationData, children }) => {
       <Toolbar className={classes.drawerFooter}>
         <Typography component='p' variant='body2' align='center'>
           <a
-            href='https://trutoro.io'
+            href='https://awm.io'
             className={classes.copyrightText}
             rel='noreferrer'
             target='_blank'>
             Made with&nbsp;
             <Favorite fontSize='small' />
-            &nbsp;by&nbsp;Trutoro
+            &nbsp;by&nbsp;awm
           </a>
         </Typography>
       </Toolbar>
@@ -230,7 +230,7 @@ const MainLayout = ({ themeConfig, navigationData, children }) => {
             <MenuIcon />
           </IconButton>
           <Typography variant='h6' noWrap className={classes.appBarTitle}>
-            Responsive Sidebar <strong>Starter Layout</strong>
+            <strong>AWM</strong>
           </Typography>
           <Switch
             checked={themeConfig.state}
@@ -241,7 +241,7 @@ const MainLayout = ({ themeConfig, navigationData, children }) => {
             color='inherit'
             onClick={() =>
               window.open(
-                "https://github.com/trutoro/react-material-sidebar-starter",
+                "https://github.com/rouamansour/AWM",
                 "_blank"
               )
             }>

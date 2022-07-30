@@ -13,19 +13,19 @@ export const mainNavigation = [
     url: `/dashboard`,
   },
   {
-    name: "Posts",
+    name: "Requests",
     icon: ImportContacts,
-    url: `/posts`,
+    url: `/Requests`,
     navigationData: [
       {
-        name: "All Posts",
+        name: "All Requests",
         icon: MenuBook,
-        url: `/posts/all`,
+        url: `/requests/all`,
       },
       {
         name: "Editor",
         icon: PostAdd,
-        url: `/posts/editor`,
+        url: `/requests/editor`,
       },
     ],
   },
