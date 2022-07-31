@@ -2,10 +2,10 @@ import React from "react";
 import { Box } from "@material-ui/core";
 import { PageBody, PageHeader } from "../../components";
 
-const Posts = () => {
+const Request = () => {
   return (
     <React.Fragment>
-      <PageHeader title='All Posts' />
+      <PageHeader title='All Requests' />
       <PageBody style={{ display: "flex" }}>
         <Box
           flexGrow='1'
@@ -22,4 +22,4 @@ const Posts = () => {
   );
 };
 
-export default Posts;
+export default Request;

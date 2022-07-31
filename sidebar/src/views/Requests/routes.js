@@ -2,12 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Routes } from "../../components";
 
-const PostsRoutes = ({ routes }) => {
+const RequestsRoutes = ({ routes }) => {
   return <Routes routes={routes} />;
 };
 
-export default PostsRoutes;
+export default RequestsRoutes;
 
-PostsRoutes.propTypes = {
+RequestsRoutes.propTypes = {
   routes: PropTypes.arrayOf(PropTypes.object),
 };
