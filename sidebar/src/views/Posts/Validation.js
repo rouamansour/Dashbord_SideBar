@@ -8,12 +8,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Editor = () => {
+const Validation = () => {
   const classes = useStyles();
 
   return (
     <React.Fragment>
-      <PageHeader title='Editor'>
+      <PageHeader title='Validation'>
         <Button
           variant='outlined'
           color='primary'
@@ -49,4 +49,4 @@ const Editor = () => {
   );
 };
 
-export default Editor;
+export default Validation;

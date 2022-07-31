@@ -13,12 +13,14 @@ const Users = () => {
           flexDirection='column'
           alignItems='center'
           justifyContent='center'>
-          <h1>Page Body</h1>
+          <h1>Page user</h1>
           <p>Page without header</p>
         </Box>
       </PageBody>
     </React.Fragment>
   );
 };
+
+
 
 export default Users;

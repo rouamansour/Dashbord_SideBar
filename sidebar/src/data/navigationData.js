@@ -2,11 +2,15 @@ import {
   Dashboard,
   PeopleAlt,
   MenuBook,
-  ImportContacts,
+  PersonAdd,
   PostAdd,
+  Subject,
+  ExitToApp,
 } from "@material-ui/icons";
-import LockOpenIcon from '@mui/icons-material/LockOpen';
-import HowToRegIcon from '@mui/icons-material/HowToReg';
+import { IoLockOpenSharp, IoPersonAddSharp,IoReaderSharp} from "react-icons/io5";
+// import LockOpenIcon from '@mui/icons-material/LockOpen';
+// import HowToRegIcon from '@mui/icons-material/HowToReg';
+// import ArticleIcon from '@mui/icons-material/Article';
 export const mainNavigation = [
   {
     name: "Dashboard",
@@ -15,7 +19,7 @@ export const mainNavigation = [
   },
   {
     name: "Requests",
-    icon: ImportContacts,
+    icon: Subject ,
     url: `/Requests`,
     navigationData: [
       {
@@ -37,12 +41,30 @@ export const mainNavigation = [
   },
   {
     name: "Register",
-    icon: HowToRegIcon,
+    icon: PersonAdd ,
     url: `/register`,
   },
   {
     name: "Login",
-    icon: LockOpenIcon,
+    icon: ExitToApp ,
     url: `/login`,
   },
 ];
+// const renderContent = (
+//     <Box sx={{ mb: 5, mx: 2.5 }}>
+//       <Link underline="none" component={RouterLink} to="#">
+//         <AccountStyle>
+//           <Avatar src={account.photoURL} alt="photoURL" />
+//           <Box sx={{ ml: 2 }}>
+//             <Typography variant="subtitle2" sx={{ color: 'text.primary' }}>
+//               {account.displayName}
+//             </Typography>
+//             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+//               {account.role}
+//             </Typography>
+//           </Box>
+//         </AccountStyle>
+//       </Link>
+//     </Box>
+// )
+

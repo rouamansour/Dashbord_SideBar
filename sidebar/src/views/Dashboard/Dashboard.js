@@ -5,7 +5,7 @@ import { PageBody, PageHeader } from "../../components";
 const Dashboard = () => {
   return (
     <React.Fragment>
-      <PageHeader title='Dashboard - Page Header' />
+      <PageHeader title='Dashboard - Hi Welcom' />
       <PageBody style={{ display: "flex" }}>
         <Box
           flexGrow='1'
